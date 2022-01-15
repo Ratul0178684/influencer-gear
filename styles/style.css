@@ -151,3 +151,45 @@ footer{
     margin-top: 100px;
     padding: 50px 600px;
 }
+
+
+/*----------------------------------------------------
+--------------------- responsive css ------------------*/
+
+@media only screen and (max-width:688px) {
+    .product{
+        grid-template-columns: 1fr ;
+    }
+    .banner-left h1{
+        font-size: 35px;
+    }
+}
+@media (max-width:800px) {
+    .banner{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    .banner-left{
+        order: 2;
+        padding: 50px 0 ;
+    }
+    .footers{
+        grid-template-columns: 1fr;
+        padding: 30px 100px;
+    }
+    .navigation{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: whitesmoke;
+        padding: 20px 0;
+        transform: translateY(-330px);
+        transition: .5s ease-in-out;
+    }
+    
+}
+
+
