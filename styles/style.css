@@ -86,3 +86,29 @@ nav{
 .banner-right img{
     width: 70%;
 }
+
+/* main styles */
+.product{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    max-width: 1200px;
+}
+.fas{
+    color: rgb(201, 172, 7);
+    font-size: 10px;
+}
+.item{
+    padding: 50px 50px;
+    background-color: rgb(248, 241, 241);
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+} 
+.item-author{
+    font-size: 15px;
+    color: gray;
+}
+.item p{
+    color: gray;
+}
